@@ -1,6 +1,6 @@
 pipeline
 {
- agent Jenkins
+ agent {label 'Jenkins'}
   stages
    {
      stage('clone')
